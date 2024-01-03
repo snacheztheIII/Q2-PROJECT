@@ -1,0 +1,59 @@
+body {
+	background-image:url(https://www.shutterstock.com/shutterstock/videos/1050596785/thumb/1.jpg?ip=x480) ;
+}
+
+h1 {
+	font-family:;
+	font-family:;
+}
+
+.places {
+	border: 5px solid;
+	background-color:blue ;
+}
+
+.container {  
+	display: inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px 10em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "i i2 i3"
+    "d d2 d3"
+    ;
+}
+
+.i { 
+	grid-area: i; 
+}
+
+.i2 { grid-area: i2; 
+}
+
+.i3 { grid-area: i3; 
+}
+
+.d { grid-area: d; 	
+				border: 5px solid #0096c7; 
+			text-align:center;
+			justify-content: center;
+			margin-top:5px;
+			background-color:#0096c7; 
+}
+
+.d2 { grid-area: d2; 
+				border: 5px solid #0096c7; 
+			text-align:center;
+			justify-content: center;
+			margin-top:5px;
+			background-color:#0096c7; 
+}
+
+.d3 { grid-area: d3; 
+				border: 5px solid #0096c7; 
+			text-align:center;
+			justify-content: center;
+			margin-top:5px;
+			background-color:#0096c7; 
+}
